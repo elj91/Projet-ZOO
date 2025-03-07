@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.menu {
+    flex: 0 0 auto;
+    width: 17%;
+    background: linear-gradient(180deg, #8e44ad, #c638d3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.menu-btn {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #8e44ad;
+    box-shadow: 0 0 7px 0 #333;
+}
+
+.btn-deconnexion {
+    background-color: #f44336;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.menu-btn:hover {
+    background-color: #76448e;
+}
+
+.menu-btn:active {
+    background-color: #5a3a7f;
+}
+
+.menu-btn:focus {
+    outline: none;
+}
+
+.btn-deconnexion:hover {
+    background-color: #d32f2f;
+}
+
+
+.dashboard {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.container-section {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.species, .animals {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    color: #666;
+    text-align: center;
+    box-shadow: 0 0 7px 0 #a8a8a8;
+    text-shadow: #333 2px 2px 1px;
+}
+
+.species p, .animals p {
+    font-size: 24px;
+    margin: 0;
+    color: #666;
+    text-shadow: 2px 2px 1px #333;
+}
+
+.species {
+    margin-right: 10px;
+}
+
+.animal-list {
+    overflow-x: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 7px 0 #a8a8a8;
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+thead {
+    background-color: #8e44ad;
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.animal-form-cont {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    max-width: 800px;
+    margin: auto;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.animal-form-cont h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #8e44ad;
+    text-shadow: #5a3a7f 2px 2px 1px;
+}
+
+.animal-form-cont label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.animal-form-cont input,
+.animal-form-cont select,
+.animal-form-cont textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.animal-form-cont button {
+    padding: 10px 20px;
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.animal-form-cont button:hover {
+    background-color: #6c3483;
+}
+
+.resultat-table {
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+    margin-top: 50px;
+
+}
+
+.resultat-table h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: #8e44ad;
+    text-shadow: #5a3a7f 2px 2px 1px;
+}
+
+.resultat-table table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0 #a8a8a8;
+    overflow: auto;
+}
+
+.resultat-table th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #8e44ad;
+    color: white;
+    text-align: center;
+}
+
+.resultat-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}

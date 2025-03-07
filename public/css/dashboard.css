@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/accueil.jpeg");
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    color: #666;
+    text-align: center;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 1px #333;
+}
+
+.message {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #8e44ad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #76448e;
+}
+
+.btn-deconnexion {
+    background-color: #dc3545;
+}
+
+.btn-deconnexion:hover {
+    background-color: #c82333;
+}
+
+.articles {
+    margin-top: 50px;
+}
+
+.article {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    color: #666;
+    margin-top: 0;
+    text-shadow: 2px 2px 1px #333;
+}
+
+.article p {
+    color: #666;
+}
